@@ -14,7 +14,7 @@ fun main() {
         salarios[index] = salario * 1.1
     }
 
-    salarios.forEach { println("%.1f".format(it)) }
+    salarios.forEach { println("%.1f".format(it).replace(",", ".").toDouble()) }
 
     println("")
 
