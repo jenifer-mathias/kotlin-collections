@@ -13,8 +13,9 @@ data class Funcionario(
     override fun toString(): String =
         """
             
-            Nome:     $nome
-            Salário:  $salario
+            Nome:                  $nome
+            Salário:               $salario
+            Regime de contratação: $tipoContratacao
             
         """.trimIndent()
 }
