@@ -1,0 +1,35 @@
+package br.com.collection
+
+fun main() {
+
+    val values = IntArray(5)
+
+    values[0] = 1
+    values[1] = 7
+    values[2] = 6
+    values[3] = 3
+    values[4] = 2
+
+    for (value in values) {
+        println(value)
+    }
+
+    println("")
+
+    values.forEach {
+        println(it)
+    }
+
+    println("")
+
+    for (index in values.indices) {
+        println(values[index])
+    }
+
+    println("")
+
+    values.sort() // sort ordenou o array do menor valor para o maior
+    for (value in values) {
+        println(value)
+    }
+}
