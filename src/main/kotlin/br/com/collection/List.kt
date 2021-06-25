@@ -1,24 +1,5 @@
 package br.com.collection
 
-enum class TipoFuncionario(tipo: String) {
-    CLT("Regime de contratação CLT"),
-    PJ("Regime de contratação PJ")
-}
-
-data class Funcionario(
-    val nome: String,
-    val salario: Double,
-    val tipoContratacao : TipoFuncionario
-) {
-    override fun toString(): String =
-        """
-            
-            Nome:     $nome
-            Salário:  $salario
-            
-        """.trimIndent()
-}
-
 fun main() {
     val joao = Funcionario("João", 2000.0, TipoFuncionario.CLT)
     val maria = Funcionario("Maria", 1500.0, TipoFuncionario.CLT)
