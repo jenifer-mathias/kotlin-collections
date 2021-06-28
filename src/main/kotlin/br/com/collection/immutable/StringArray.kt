@@ -1,4 +1,4 @@
-package br.com.collection
+package br.com.collection.immutable
 
 fun main() {
     val names = Array(3) {""}

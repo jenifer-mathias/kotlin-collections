@@ -1,4 +1,4 @@
-package br.com.collection
+package br.com.collection.utils
 
 enum class TipoFuncionario(tipo: String) {
     CLT("Regime de contratação CLT"),

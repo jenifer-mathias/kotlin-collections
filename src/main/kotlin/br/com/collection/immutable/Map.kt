@@ -1,4 +1,4 @@
-package br.com.collection
+package br.com.collection.immutable
 
 fun main() {
     val pair: Pair<String, Double> = Pair("João", 1000.0)

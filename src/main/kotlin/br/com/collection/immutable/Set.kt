@@ -1,4 +1,7 @@
-package br.com.collection
+package br.com.collection.immutable
+
+import br.com.collection.utils.Funcionario
+import br.com.collection.utils.TipoFuncionario
 
 fun main() {
     val joao = Funcionario("João", 2000.0, TipoFuncionario.CLT)
