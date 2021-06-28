@@ -1,4 +1,7 @@
-package br.com.extensionfunction
+package br.com.collection.mutable
+
+import br.com.collection.utils.media
+import br.com.collection.utils.somatoria
 
 fun main() {
     val salarios = arrayOf(
